@@ -18,12 +18,17 @@ header {
     padding: 1rem 2rem;
     background: white;
     color: black;
+    height: 60px;
     
 }
 
+.logo-container {
+    flex-shrink: 0; /* Prevent resizing due to flexbox behavior */
+}
+
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    max-height: 40px; /* Restrict height */
+    width: auto; /* Maintain aspect ratio */
 }
 
 .menu {
