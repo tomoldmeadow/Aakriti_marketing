@@ -1,10 +1,18 @@
-// Smooth Scrolling for Navigation
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// Smooth Scrolling for Navigation Links
+document.querySelectorAll('a[href^="index.html#"], a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+        const targetId = this.getAttribute('href').split('#')[1]; // Get the target section ID
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth'
+            });
+        } else {
+            // Navigate to the target section if it's on another page
+            window.location.href = this.getAttribute('href');
+        }
     });
 });
 
