@@ -27,7 +27,7 @@ header {
 }
 
 .logo {
-    max-height: 40px; /* Restrict height */
+    max-height: 60px; /* Restrict height */
     width: auto; /* Maintain aspect ratio */
 }
 
@@ -53,7 +53,7 @@ header {
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    background: linear-gradient(to bottom, #000000, #c4c2c2);
     color: #fff;
 }
 
@@ -64,7 +64,7 @@ header {
 
 .hero button {
     padding: 0.8rem 1.5rem;
-    background: #ff5722;
+    background: black;
     border: none;
     border-radius: 5px;
     color: white;
@@ -126,7 +126,7 @@ header {
 }
 
 .skill {
-    background: #4facfe;
+    background: black;
     color: white;
     padding: 1rem 2rem;
     border-radius: 20px;
