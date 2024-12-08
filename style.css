@@ -27,7 +27,7 @@ header {
 }
 
 .logo {
-    max-height: 100px; /* Restrict height */
+    height: 100px; /* Restrict height */
     width: auto; /* Maintain aspect ratio */
 }
 
