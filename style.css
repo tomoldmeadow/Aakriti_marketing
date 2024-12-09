@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-    max-height: 90%; /* Clean size for the logo */
+    max-height: 50%; /* Clean size for the logo */
     width: auto;
 }
 
