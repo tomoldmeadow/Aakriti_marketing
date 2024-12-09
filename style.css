@@ -22,18 +22,15 @@ header {
     color: black;
     height: 60px
     border-bottom: 2px solid #eaeaea; /* Subtle separator */
-    border: 1px solid red;
 }
 
 .logo-container {
     flex-shrink: 0;
-    border: 1px solid blue;
 }
 
 .logo {
     max-height: 90%; /* Clean size for the logo */
     width: auto;
-    border: 1px solid green;
 }
 
 .menu {
