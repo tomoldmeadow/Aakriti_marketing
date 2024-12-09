@@ -86,7 +86,8 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
-    margin-top: 2rem;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .portfolio-item {
