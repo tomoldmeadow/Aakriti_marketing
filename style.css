@@ -20,6 +20,7 @@ header {
     padding: 1rem 2rem;
     background: white; /* White for a clean navigation bar */
     color: black;
+    height: 60px
     border-bottom: 2px solid #eaeaea; /* Subtle separator */
 }
 
@@ -28,7 +29,7 @@ header {
 }
 
 .logo {
-    max-height: 50px; /* Clean size for the logo */
+    max-height: 90%; /* Clean size for the logo */
     width: auto;
 }
 
