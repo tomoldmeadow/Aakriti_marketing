@@ -58,14 +58,10 @@ header {
 .hero {
     text-align: center;
     padding: 6rem 2rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('images/aakriti_webimage.jpg') no-repeat center center/cover;
-    color: white; /* Ensure the text is visible */
-    position: relative; /* For absolute positioning of overlay elements, if needed */
-    filter: grayscale(100%);
+    background: black; /* Solid black background */
+    color: white; /* White text for contrast */
 }
 
-/* Optional: Style for the hero text */
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;
@@ -73,25 +69,24 @@ header {
 
 .hero p {
     font-size: 1.2rem;
-    color: #ddd; /* Softer white for contrast */
+    color: #ccc; /* Light gray for subtler text */
     margin-bottom: 2rem;
 }
 
-/* Button remains unchanged */
 .hero button {
     padding: 0.8rem 1.5rem;
-    background: white;
+    background: white; /* White button */
     border: none;
     border-radius: 5px;
-    color: black;
+    color: black; /* Black text */
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .hero button:hover {
-    background: #ccc; /* Softer hover color */
-    transform: scale(1.05);
+    background: #ddd; /* Slightly darker white for hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 /* Content Sections */
